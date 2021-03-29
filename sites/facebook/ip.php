@@ -17,7 +17,7 @@ $browser = $_SERVER['HTTP_USER_AGENT'];
 
 
 $file = 'ip.txt';
-$victim = "IP: ";
+$victim = "\nIP: ";
 $fp = fopen($file, 'a');
 
 fwrite($fp, $victim);
